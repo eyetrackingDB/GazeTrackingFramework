@@ -28,6 +28,21 @@ If you are planning to integrate NormMaker into a commercial product, please con
   * Android SDK and NDK [click](http://developer.android.com/sdk/index.html)
   * OpenCV 4 Android [click](http://opencv.org/platforms/android.html)
   * TBB Library [click](https://www.threadingbuildingblocks.org/)
+   
+  All other libraries are included.
+ 
+#### Used Libraries
+ This project bases on different OpenSource libraries. Please respect their license if you use it. You can find copies of their licenses in the "licenses" folder. 
+  * EyeTab GazeTracking  [click](https://github.com/errollw/EyeTab/)
+  * EyeLike Pupil Detection [click](https://github.com/trishume/eyeLike)
+  * OpenCV [click](http://opencv.org/) 
+  * JavaCV [click](https://github.com/bytedeco/javacv) 
+  * TBB Library [click](https://www.threadingbuildingblocks.org/)
+  * Eigen [click](http://eigen.tuxfamily.org/index.php?title=Main_Page)
+  * FFMPEG [click](https://www.ffmpeg.org/)
+  * FFMPEG 4 Android [click](https://github.com/guardianproject/android-ffmpeg-java)
+  * MP4 Parser [click](https://github.com/sannies/mp4parser)
+  * RootTools [click](https://github.com/Stericson/RootTools)
 
 #### HOW TO USE THIS SOFTWARE
 * Clone the git repository
