@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string-array name="test_word_single_pref_font_size_entries">
+        <item name="SEC_1">20 sp</item>
+        <item name="SEC_2">24 sp</item>
+        <item name="SEC_3">28 sp</item>
+        <item name="SEC_4">32 sp</item>
+        <item name="SEC_5">36 sp</item>
+        <item name="SEC_5">40 sp</item>
+        <item name="SEC_5">44 sp</item>
+    </string-array>
+    <string-array name="test_word_single_pref_font_size_values">
+        <item name="SEC_1">20</item>
+        <item name="SEC_2">24</item>
+        <item name="SEC_3">28</item>
+        <item name="SEC_4">32</item>
+        <item name="SEC_5">36</item>
+        <item name="SEC_5">40</item>
+        <item name="SEC_5">44</item>
+    </string-array>
+
+    <string name="test_word_single_pref_font_size_default">40</string>
+
+</resources>

@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <item
+        android:id="@+id/action_select_all"
+        android:icon="@drawable/ic_action_select_all"
+        android:orderInCategory="100"
+        android:showAsAction="always|withText"
+        android:title="@string/fragment_testmanagement_actionbar_select_all"/>
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/ic_action_share"
+        android:orderInCategory="100"
+        android:showAsAction="always|withText"
+        android:title="@string/fragment_testmanagement_actionbar_share"/>
+    <item
+        android:id="@+id/action_delete"
+        android:icon="@drawable/ic_action_delete"
+        android:orderInCategory="100"
+        android:showAsAction="always|withText"
+        android:title="@string/fragment_testmanagement_actionbar_delete"/>
+    <item
+        android:id="@+id/action_postproc"
+        android:icon="@drawable/action_postproc"
+        android:orderInCategory="100"
+        android:showAsAction="always|withText"
+        android:title="@string/fragment_testmanagement_actionbar_postproc"/>
+
+</menu>

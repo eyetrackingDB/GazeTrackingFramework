@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.vion.eyetracking"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.RECORD_VIDEO" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front.autofocus"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:launchMode="singleTop"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="de.vion.eyetracking.HomeActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="de.vion.eyetracking.TestSettingsActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="de.vion.eyetracking.TestActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Holo.NoActionBar" >
+        </activity>
+        <activity
+            android:name="de.vion.eyetracking.cameracalib.CalibrationMainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="de.vion.eyetracking.settings.GazeTrackingPreferencesActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="de.vion.eyetracking.cameracalib.calibration.CalibrationActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="de.vion.eyetracking.cameracalib.tutorial.TutorialActivity"
+            android:label="@string/activity_tutorial_name" >
+        </activity>
+        <activity
+            android:name="de.vion.eyetracking.testmanagement.TestManagementActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+        <service android:name="de.vion.eyetracking.RecordService" >
+        </service>
+        <service android:name="de.vion.eyetracking.gazedetection.post.PostProcessingService" >
+        </service>
+    </application>
+
+</manifest>

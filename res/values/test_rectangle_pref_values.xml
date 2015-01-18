@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Time per Rectangle -->
+    <string-array name="test_rectangle_pref_time_per_rectangle_entries">
+        <item name="SEC_3">3 seconds</item>
+        <item name="SEC_5">5 seconds</item>
+        <item name="SEC_10">10 seconds</item>
+        <item name="SEC_15">15 seconds</item>
+        <item name="SEC_20">20 seconds</item>
+    </string-array>
+    <string-array name="test_rectangle_pref_time_per_rectangle_values">
+        <item name="SEC_3">3000</item>
+        <item name="SEC_5">5000</item>
+        <item name="SEC_10">10000</item>
+        <item name="SEC_15">15000</item>
+        <item name="SEC_20">20000</item>
+    </string-array>
+
+    <string name="test_rectangle_pref_time_per_rectangle_default">3000</string>
+
+    <!-- Pause between Rectangle -->
+    <string-array name="test_rectangle_pref_pause_between_rectangles_entries">
+        <item name="SEC_0">0 seconds</item>
+        <item name="SEC_5">5 seconds</item>
+        <item name="SEC_10">10 seconds</item>
+        <item name="SEC_15">15 seconds</item>
+        <item name="SEC_20">20 seconds</item>
+    </string-array>
+    <string-array name="test_rectangle_pref_pause_between_rectangles_values">
+        <item name="SEC_0">0</item>
+        <item name="SEC_5">5000</item>
+        <item name="SEC_10">10000</item>
+        <item name="SEC_15">15000</item>
+        <item name="SEC_20">20000</item>
+    </string-array>
+
+    <string name="test_rectangle_pref_pause_between_rectangles_default">0</string>
+
+</resources>

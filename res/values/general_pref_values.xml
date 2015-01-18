@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Device Orientation -->
+    <string-array name="general_pref_device_orientation_entries">
+        <item name="LANDSCAPE">Landscape</item>
+        <item name="LANDSCAPE_REVERSE">Reverse Landscape</item>
+        <item name="PORTRAIT">Portrait</item>
+        <item name="PORTRAIT_REVERSE">Reverse Portrait</item>
+    </string-array>
+    <string-array name="general_pref_device_orientation_values">
+        <item name="LANDSCAPE">LANDSCAPE</item>
+        <item name="LANDSCAPE_REVERSE">LANDSCAPE_REVERSE</item>
+        <item name="PORTRAIT">PORTRAIT</item>
+        <item name="PORTRAIT_REVERSE">PORTRAIT_REVERSE</item>
+    </string-array>
+
+    <string name="general_pref_device_orientation_default">PORTRAIT_REVERSE</string>
+
+    <!-- Camera Resolution -->
+    <string-array name="general_pref_camera_resolution_entries">
+        <item name="1280x720">1280x720</item>
+    </string-array>
+    <string-array name="general_pref_camera_resolution_values">
+        <item name="1280x720">1280x720</item>
+    </string-array>
+
+    <string name="general_pref_camera_resolution_default">1280x720</string>
+
+</resources>

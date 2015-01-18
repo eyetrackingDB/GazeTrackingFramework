@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <android.support.v4.view.ViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/activity_tutorial_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/activity_tutorial_ll_btns"/>
+
+    <LinearLayout
+        android:id="@+id/activity_tutorial_ll_btns"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="True" >
+
+        <Button
+            android:id="@+id/activity_tutorial_btn_skip"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/activity_tutorial_btn_skip" />
+
+        <CheckBox
+            android:id="@+id/activity_tutorial_cb"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:checked="true"
+            android:text="@string/activity_tutorial_cb_show_on_each_start" />
+    </LinearLayout>
+
+</RelativeLayout>

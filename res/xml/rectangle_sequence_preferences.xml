@@ -1,0 +1,13 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/preferences_rectangle_sequence_test_category" >
+        <ListPreference
+            android:defaultValue="@string/test_rectangle_sequence_pref_time_per_sequence_default"
+            android:entries="@array/test_rectangle_sequence_pref_time_per_sequence_entries"
+            android:entryValues="@array/test_rectangle_sequence_pref_time_per_sequence_values"
+            android:key="pref_rectangle_test_sequence_time_per_sequence"
+            android:summary="@string/preferences_rectangle_sequence_test_time_per_sequence_summary"
+            android:title="@string/preferences_rectangle_sequence_test_time_per_sequence_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

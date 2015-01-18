@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Time per Sequence -->
+    <string-array name="test_rectangle_sequence_pref_time_per_sequence_entries">
+        <item name="SEC_30">30 seconds</item>
+        <item name="SEC_45">45 seconds</item>
+        <item name="SEC_60">60 seconds</item>
+    </string-array>
+    <string-array name="test_rectangle_sequence_pref_time_per_sequence_values">
+        <item name="SEC_30">30000</item>
+        <item name="SEC_45">45000</item>
+        <item name="SEC_60">60000</item>
+    </string-array>
+
+    <string name="test_rectangle_sequence_pref_time_per_sequence_default">30000</string>
+</resources>

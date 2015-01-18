@@ -1,0 +1,59 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/included_layout"
+    android:layout_alignParentTop="true"
+    android:padding="16dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            style="?android:textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fragment_tutorial_page_3_tv1" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/fragment_tutorial_page_3_tv1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/tutorial_page_3_img1" />
+
+        <TextView
+            style="?android:textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/fragment_tutorial_page_3_tv2" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/fragment_tutorial_page_3_tv2"
+            android:scaleType="fitCenter"
+            android:src="@drawable/tutorial_page_3_img2" />
+
+        <TextView
+            style="?android:textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/fragment_tutorial_page_3_tv3" />
+
+        <TextView
+            style="?android:textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/fragment_tutorial_page_3_tv4" />
+    </LinearLayout>
+
+</ScrollView>

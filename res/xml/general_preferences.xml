@@ -1,0 +1,33 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/preferences_general_device_category" >
+        <ListPreference
+            android:defaultValue="@string/general_pref_device_orientation_default"
+            android:entries="@array/general_pref_device_orientation_entries"
+            android:entryValues="@array/general_pref_device_orientation_values"
+            android:key="pref_general_pref_device_orientation"
+            android:summary="@string/preferences_general_pref_device_orientation_summary"
+            android:title="@string/preferences_general_pref_device_orientation_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preferences_general_camera_category" >
+        <EditTextPreference
+            android:defaultValue="0"
+            android:inputType="numberSigned"
+            android:key="pref_general_pref_camera_offset_x"
+            android:summary="@string/preferences_general_pref_camera_offset_x_summary"
+            android:title="@string/preferences_general_pref_camera_offset_x_title" />
+        <EditTextPreference
+            android:defaultValue="0"
+            android:inputType="numberSigned"
+            android:key="pref_general_pref_camera_offset_y"
+            android:summary="@string/preferences_general_pref_camera_offset_y_summary"
+            android:title="@string/preferences_general_pref_camera_offset_y_title" />
+        <ListPreference
+            android:defaultValue="@string/general_pref_camera_resolution_default"
+            android:entries="@array/general_pref_camera_resolution_entries"
+            android:entryValues="@array/general_pref_camera_resolution_values"
+            android:key="pref_general_pref_camera_resolution"
+            android:summary="@string/preferences_general_pref_camera_resolution_summary"
+            android:title="@string/preferences_general_pref_camera_resolution_title" />
+    </PreferenceCategory>
+</PreferenceScreen>

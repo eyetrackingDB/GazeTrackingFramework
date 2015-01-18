@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Time for gazing on the tablet -->
+    <string-array name="test_screen_pref_time_gazing_on_tablet_entries">
+        <item name="SEC_5">5 seconds</item>
+        <item name="SEC_10">10 seconds</item>
+        <item name="SEC_15">15 seconds</item>
+        <item name="SEC_20">20 seconds</item>
+    </string-array>
+    <string-array name="test_screen_pref_time_gazing_on_tablet_values">
+        <item name="SEC_5">5000</item>
+        <item name="SEC_10">10000</item>
+        <item name="SEC_15">15000</item>
+        <item name="SEC_20">20000</item>
+    </string-array>
+
+    <string name="test_screen_pref_time_gazing_on_tablet_default">5000</string>
+
+    <!-- Time for gazing beside the tablet -->
+    <string-array name="test_screen_pref_time_gazing_beside_tablet_entries">
+        <item name="SEC_5">5 seconds</item>
+        <item name="SEC_10">10 seconds</item>
+        <item name="SEC_15">15 seconds</item>
+        <item name="SEC_20">20 seconds</item>
+    </string-array>
+    <string-array name="test_screen_pref_time_gazing_beside_tablet_values">
+        <item name="SEC_5">5000</item>
+        <item name="SEC_10">10000</item>
+        <item name="SEC_15">15000</item>
+        <item name="SEC_20">20000</item>
+    </string-array>
+
+    <string name="test_screen_pref_time_gazing_beside_tablet_default">5000</string>
+    
+    <!-- The Settings for the Repetitions -->
+    <string-array name="test_screen_pref_number_of_repetitions">
+        <item name="REP_1">1</item>
+        <item name="REP_2">2</item>
+        <item name="REP_3">3</item>
+        <item name="REP_4">4</item>
+    </string-array>
+
+    <string name="test_screen_pref_number_of_repetitions_default">1</string>
+
+</resources>

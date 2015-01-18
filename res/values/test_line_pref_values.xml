@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string-array name="test_line_pref_number_of_lines_entries">
+        <item name="LINE_1">1 Line</item>
+        <item name="LINE_2">2 Lines</item>
+        <item name="LINE_3">3 Lines</item>
+        <item name="LINE_4">4 Lines</item>
+        <item name="LINE_5">5 Lines</item>
+    </string-array>
+    <string-array name="test_line_pref_number_of_lines_values">
+        <item name="LINE_1">1</item>
+        <item name="LINE_2">2</item>
+        <item name="LINE_3">3</item>
+        <item name="LINE_4">4</item>
+        <item name="LINE_5">5</item>
+    </string-array>
+
+    <string name="test_line_pref_number_of_lines_default">5</string>
+
+    <string-array name="test_line_pref_velocity_entries">
+        <item name="SMALL">Slow</item>
+        <item name="NORMAL">Normal</item>
+        <item name="FAST">Fast</item>
+    </string-array>
+    <string-array name="test_line_pref_velocity_values">
+        <item name="SMALL">5</item>
+        <item name="NORMAL">10</item>
+        <item name="FAST">20</item>
+    </string-array>
+
+    <string name="test_line_pref_velocity_default">20</string>
+
+    <!-- The Settings for the Repetitions -->
+    <string-array name="test_line_pref_number_of_repetitions">
+        <item name="REP_1">1</item>
+        <item name="REP_2">2</item>
+        <item name="REP_3">3</item>
+        <item name="REP_4">4</item>
+    </string-array>
+
+    <string name="test_line_pref_number_of_repetitions_default">1</string>
+
+</resources>

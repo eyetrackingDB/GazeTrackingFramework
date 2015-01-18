@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_camera_calib"
+        android:icon="@drawable/action_camera_calib"
+        android:showAsAction="ifRoom"
+        android:title="@string/home_actionbar_camera_calibration"/>
+    <item
+        android:id="@+id/action_gaze_tracking_settings"
+        android:icon="@drawable/action_settings"
+        android:showAsAction="ifRoom"
+        android:title="@string/home_actionbar_gaze_tracking_settings"/>
+    <item
+        android:id="@+id/action_general_postproc"
+        android:icon="@drawable/action_postproc"
+        android:showAsAction="ifRoom"
+        android:title="@string/home_actionbar_general_postproc"/>
+
+</menu>

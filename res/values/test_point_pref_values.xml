@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Time per point -->
+    <string-array name="test_point_pref_time_per_point_entries">
+        <item name="SEC_3">3 seconds</item>
+        <item name="SEC_5">5 seconds</item>
+        <item name="SEC_10">10 seconds</item>
+        <item name="SEC_15">15 seconds</item>
+        <item name="SEC_20">20 seconds</item>
+    </string-array>
+    <string-array name="test_point_pref_time_per_point_values">
+        <item name="SEC_3">3000</item>
+        <item name="SEC_5">5000</item>
+        <item name="SEC_10">10000</item>
+        <item name="SEC_15">15000</item>
+        <item name="SEC_20">20000</item>
+    </string-array>
+
+    <string name="test_point_pref_time_per_point_default">3000</string>
+
+    <!-- The Settings for the ROW -->
+    <string-array name="test_point_pref_number_of_rows">
+        <item name="ROW_1">1</item>
+        <item name="ROW_2">2</item>
+        <item name="ROW_3">3</item>
+        <item name="ROW_4">4</item>
+    </string-array>
+
+    <string name="test_point_pref_number_of_rows_default">1</string>
+
+    <!-- The Settings for the Column -->
+    <string-array name="test_point_pref_number_of_columns">
+        <item name="COL_1">1</item>
+        <item name="COL_2">2</item>
+        <item name="COL_3">3</item>
+        <item name="COL_4">4</item>
+    </string-array>
+
+    <string name="test_point_pref_number_of_columns_default">1</string>
+
+    <!-- The Settings for the Repetitions -->
+    <string-array name="test_point_pref_number_of_repetitions">
+        <item name="REP_1">1</item>
+        <item name="REP_2">2</item>
+        <item name="REP_3">3</item>
+        <item name="REP_4">4</item>
+    </string-array>
+
+    <string name="test_point_pref_number_of_repetitions_default">1</string>
+
+</resources>

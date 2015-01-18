@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/list_item_fragment_testmanagement_header_tv_title"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light"
+        android:gravity="center"
+        android:textColor="#ffffff" />
+
+</LinearLayout>

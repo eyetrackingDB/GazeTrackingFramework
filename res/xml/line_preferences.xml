@@ -1,0 +1,27 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/preferences_line_test_category" >
+        <ListPreference
+            android:defaultValue="@string/test_line_pref_number_of_lines_default"
+            android:entries="@array/test_line_pref_number_of_lines_entries"
+            android:entryValues="@array/test_line_pref_number_of_lines_values"
+            android:key="pref_line_test_general_number_of_lines"
+            android:summary="@string/preferences_line_test_number_of_lines_summary"
+            android:title="@string/preferences_line_test_number_of_lines" />
+        <ListPreference
+            android:defaultValue="@string/test_line_pref_velocity_default"
+            android:entries="@array/test_line_pref_velocity_entries"
+            android:entryValues="@array/test_line_pref_velocity_values"
+            android:key="pref_line_test_general_velocity"
+            android:summary="@string/preferences_line_test_velocity_summary"
+            android:title="@string/preferences_line_test_velocity_title" />
+        <ListPreference
+            android:defaultValue="@string/test_line_pref_number_of_repetitions_default"
+            android:entries="@array/test_line_pref_number_of_repetitions"
+            android:entryValues="@array/test_line_pref_number_of_repetitions"
+            android:key="pref_line_test_number_of_repetitions"
+            android:summary="@string/preferences_line_test_number_of_repetitions_summary"
+            android:title="@string/preferences_line_test_number_of_repetitions_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

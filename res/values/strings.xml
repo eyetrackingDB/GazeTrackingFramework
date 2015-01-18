@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- General -->
+    <string name="app_name">EyeTracking</string>
+
+    <!-- Home Activity -->
+    <string name="home_activity_tv_abb">Test Subject Abbreviation:</string>
+    <string name="home_activity_tv_tests">Tests:</string>
+    <string name="home_activity_listitem_iv_content">Settings</string>
+    <string name="home_activity_dialog_camera_not_calibrated_title">Camera not calibrated</string>
+    <string name="home_activity_dialog_camera_not_calibrated_message">This application requires you to calibrate your camera</string>
+    <string name="home_activity_dialog_camera_not_calibrated_btn_positive">Close Application</string>
+    <string name="home_activity_dialog_camera_not_calibrated_btn_negative">Calibrate Camera</string>
+
+    <!-- Home Activity Action Bar -->
+    <string name="home_actionbar_camera_calibration">Camera Calibration</string>
+    <string name="home_actionbar_gaze_tracking_settings">Gaze Tracking Settings</string>
+    <string name="home_actionbar_general_postproc">Post Processing</string>
+
+    <!-- Test Activity -->
+    <string name="test_activity_listitem_test_start">Start Test</string>
+    <string name="test_activity_listitem_test_show_demo">Show Demo</string>
+    <string name="test_activity_listitem_test_camera_alignment">Test Camera Alignment</string>
+    <string name="test_activity_tv_invalid_abbreviation">Attention: For running the test the abbreviation for the test subject cannot be empty</string>
+    <string name="test_activity_dialog_close_title">Stopping</string>
+    <string name="test_activity_dialog_close_message">Exiting will close the stop the complete recording. Do you want to exit?</string>
+    <string name="test_activity_dialog_close_btn_yes">Yes</string>
+    <string name="test_activity_dialog_close_btn_no">No</string>
+    <string name="test_activity_dialog_progress_title">Please wait &#8230;</string>
+    <string name="test_activity_dialog_progress_message">Loading test &#8230;</string>
+    <string name="test_activity_toast_error_invalid_abbreviation">Error: Invalid test subject abbreviation. The abbreviation cannot be empty.</string>
+
+    <!-- Record Service -->
+    <string name="service_main_notification_title">Eye Tracking</string>
+    <string name="service_main_notification_text">Service is running</string>
+    <string name="service_main_notification_action_pause">Stop</string>
+
+    <!-- Post Processing Service -->
+    <string name="service_postproc_notification_title">Running PostProcessing</string>
+    <string name="service_postproc_notification_text_content">Expand to see processing details</string>
+    <string name="service_postproc_notification_text_row1">Processing:</string>
+    <string name="service_postproc_notification_text_row2_action_convertfps_video">Action: Converting Video Recording FPS</string>
+    <string name="service_postproc_notification_text_row2_action_convertfps_screen">Action: Converting Screen Recording FPS</string>
+    <string name="service_postproc_notification_text_row2_action_process_video_recording">Action: Processing Video Recording</string>
+    <string name="service_postproc_notification_text_row2_action_process_screen_recording">Action: Processing Screen Recording</string>
+    <string name="service_postproc_notification_text_row3_remaining_time_for_this_task">Remaining Time for this Test:</string>
+    <string name="service_postproc_notification_text_row4_remaining_time_for_all_tests">Remaining Time for all Tests:</string>
+    <string name="service_postproc_notification_text_unit">min</string>
+
+    <!-- Calibration Main Activity -->
+    <string name="calibration_main_activity_btn_start_stop">Start Calibration</string>
+    <string name="calibration_main_activity_btn_read_tutorial">Read Tutorial</string>
+    <string name="calibration_main_activity_btn_print_pattern">Print Pattern</string>
+    <string name="calibration_main_activity_btn_store_pattern">Share Pattern</string>
+    <string name="calibration_main_activity_intent_sharing_title">Send/Store the Pattern</string>
+    <string name="calibration_main_activity_intent_sharing_text">The pattern that is used for the camera calibration.</string>
+
+    <!-- Tutorial Activity -->
+    <string name="activity_tutorial_name">Tutorial</string>
+    <string name="activity_tutorial_btn_skip">Skip</string>
+    <string name="activity_tutorial_btn_finish">Finish</string>
+    <string name="activity_tutorial_cb_show_on_each_start">Show on each start?</string>
+
+    <!-- Tutorial Fragment -->
+    <string name="fragment_tutorial_page_1_tv1">Welcome to the camera calibration.\n\nFor determining the position of your eyes and calculating the gaze points you have to calibrate your camera.\nFor this you have to fulfill three steps which are explained on the next pages.\n\n1) Obtain the calibration pattern\n2) Take different pictures of the pattern\n3) Press the calibration button and wait \n</string>
+    <string name="fragment_tutorial_page_2_tv1">For obtaining the camera pattern you have two options:</string>
+    <string name="fragment_tutorial_page_2_tv2">1) Directly print it using cloud print</string>
+    <string name="fragment_tutorial_page_2_tv3">2) Store it using cloud storage, email or some other approach and then print it manually</string>
+    <string name="fragment_tutorial_page_2_tv4">Important: You have to print the pattern on a common A4 page.</string>
+    <string name="fragment_tutorial_page_3_tv1">Lay the picture on a table and take pictures from different angles and distances.</string>
+    <string name="fragment_tutorial_page_3_tv2">If the pattern is recognized by the application, you can take a picture by tapping on the screen.</string>
+    <string name="fragment_tutorial_page_3_tv3">To make your calibration more accurate, you should capture at least 20 different pictures.</string>
+    <string name="fragment_tutorial_page_3_tv4">Tip: Connecting a second screen via Miracast, MHL or SlimPort simplifies the calibration. For that the application has an extra second screen support.</string>
+    <string name="fragment_tutorial_page_4_tv1">Finally, hit the finish button on the screen and the calibration starts.\nThis process can take a bit of time.\nOnce you have calibrated your camera you can start to use the gaze tracking.\n\nAttention: Camera parameters can change over time. It could be necessary that you re-calibrate your camera after a few weeks or months. For that, you can just start the camera calibration by pressing the symbol in the actionbar.</string>
+
+    <!-- Calibration Activity -->
+    <string name="activity_tutorial_taost_error_too_less_samples">Error: You have to capture more than two samples.</string>
+
+    <!-- Calibration Fragment -->
+    <string name="fragment_calibration_btn_finish">Finish calibration</string>
+
+    <!-- TestManagement Detail Fragment -->
+    <string name="fragment_testmanagement_detail_tv_test_information">Test Information</string>
+    <string name="fragment_testmanagement_detail_tv_abbreviation">Abbreviation:</string>
+    <string name="fragment_testmanagement_detail_tv_date">Date:</string>
+    <string name="fragment_testmanagement_detail_tv_time">Time:</string>
+    <string name="fragment_testmanagement_detail_tv_duration">Duration:</string>
+    <string name="fragment_testmanagement_detail_tv_device_information">Device Information:</string>
+    <string name="fragment_testmanagement_detail_tv_device_model">Model:</string>
+    <string name="fragment_testmanagement_detail_tv_orientation">Orientation:</string>
+    <string name="fragment_testmanagement_detail_tv_width">Width:</string>
+    <string name="fragment_testmanagement_detail_tv_height">Height:</string>
+    <string name="fragment_testmanagement_detail_tv_camera_information">Camera Information:</string>
+    <string name="fragment_testmanagement_detail_tv_resolution">Resolution:</string>
+    <string name="fragment_testmanagement_detail_tv_offset">Offset:</string>
+    <string name="fragment_testmanagement_detail_tv_xaxis">X-Axis:</string>
+    <string name="fragment_testmanagement_detail_tv_yaxis">Y-Axis:</string>
+    <string name="fragment_testmanagement_detail_tv_postprocessing">Post-Processing:</string>
+    <string name="fragment_testmanagement_detail_tv_status">Status:</string>
+    <string name="fragment_testmanagement_detail_tv_status_not_processed">not processed</string>
+    <string name="fragment_testmanagement_detail_tv_status_wating">wating for processing</string>
+    <string name="fragment_testmanagement_detail_tv_status_running">running</string>
+    <string name="fragment_testmanagement_detail_tv_status_processed">processed</string>
+    <string name="fragment_testmanagement_detail_tv_test_specific_settings">General and Specific Settings:</string>
+    <string name="fragment_testmanagement_detail_tv_general_test_record_screen">Record Screen:</string>
+    <string name="fragment_testmanagement_detail_tv_general_test_second_screen">Second Screen:</string>
+    <string name="fragment_testmanagement_detail_tv_general_test_video_file">Video File:</string>
+    <string name="fragment_testmanagement_detail_tv_general_test_log_sensors">Log Sensors:</string>
+    <string name="fragment_testmanagement_detail_tv_general_test_immersive_mode">Immersive Mode:</string>
+    <string name="fragment_testmanagement_detail_tv_rectangle_test_general_time_per_rectangle">Time per Rectangle:</string>
+    <string name="fragment_testmanagement_detail_tv_rectangle_test_general_play_tone">Play Tone:</string>
+    <string name="fragment_testmanagement_detail_tv_rectangle_test_general_pause_between_rectangles">Pause Between Rectangles:</string>
+    <string name="fragment_testmanagement_detail_tv_rectangle_test_general_play_music">Play Music:</string>
+    <string name="fragment_testmanagement_detail_tv_rectangle_test_general_music_file">Music File:</string>
+    <string name="fragment_testmanagement_detail_tv_rectangle_test_sequence_time_per_sequence">Time per Sequence:</string>
+    <string name="fragment_testmanagement_detail_tv_rectangle_test_single_number_of_rows">Number of Rows:</string>
+    <string name="fragment_testmanagement_detail_tv_rectangle_test_single_number_of_columns">Number of Columns:</string>
+    <string name="fragment_testmanagement_detail_tv_video_test_file">Video File:</string>
+    <string name="fragment_testmanagement_detail_tv_video_test_loop_video">Loop Video:</string>
+    <string name="fragment_testmanagement_detail_tv_word_test_general_text_file">Text File:</string>
+    <string name="fragment_testmanagement_detail_tv_word_test_general_time_per_word">Time per Word:</string>
+    <string name="fragment_testmanagement_detail_tv_word_test_single_font_size">Font Size:</string>
+    <string name="fragment_testmanagement_detail_tv_line_test_general_velocity">Velocity:</string>
+    <string name="fragment_testmanagement_detail_tv_line_test_general_number_of_lines">Number of Lines:</string>
+    <string name="fragment_testmanagement_detail_tv_line_test_number_of_repetitions">Number of Repetitions:</string>    
+    <string name="fragment_testmanagement_detail_tv_point_test_general_time_per_point">Time per Point:</string>
+    <string name="fragment_testmanagement_detail_tv_point_test_number_of_rows">Number of Rows:</string>
+    <string name="fragment_testmanagement_detail_tv_point_test_number_of_columns">Number of Columns:</string>
+    <string name="fragment_testmanagement_detail_tv_point_test_number_of_repetitions">Number of Repetitions:</string>
+    <string name="fragment_testmanagement_detail_tv_screen_test_number_of_repetitions">Number of Repetitions:</string>
+    <string name="fragment_testmanagement_detail_tv_screen_test_gazing_time_on_tablet">Gazing Time on Tablet:</string>
+    <string name="fragment_testmanagement_detail_tv_screen_test_gazing_time_beside_tablet">Gazing Time beside Tablet:</string>
+    
+    <!-- TestManagement List Fragment -->
+    <string name="fragment_testmanagement_intent_share">Share Tests</string>
+    <string name="fragment_testmanagement_toast_postproc_already_running">Error: You already have a post-processing service running. Please stop this service before starting a new post-processing.</string>
+
+    <!-- TestManagement List Fragment PostProcDialog -->
+    <string name="fragment_testmanagement_dialog_postproc_title">Run Post-Processing</string>
+    <string name="fragment_testmanagement_dialog_postproc_message">Choose the settings for this post-processing run</string>
+    <string name="fragment_testmanagement_dialog_postproc_cb_convertfps">Convert the video and screen recording to constant FPS</string>
+    <string name="fragment_testmanagement_dialog_postproc_cb_storegazepoints_video">Store gaze points on the recorded video</string>
+    <string name="fragment_testmanagement_dialog_postproc_cb_storegazepoints_screen">Store gaze points on the recorded screen</string>
+    <string name="fragment_testmanagement_dialog_postproc_btn_start">Start</string>
+    <string name="fragment_testmanagement_dialog_postproc_btn_cancel">Cancel</string>
+
+    <!-- TestManagement List Fragment List Item -->
+    <string name="fragment_testmanagement_list_row_tv_abbreviation">Abbreviation:</string>
+    <string name="fragment_testmanagement_list_row_tv_date">Date:</string>
+    <string name="fragment_testmanagement_list_row_tv_time">Time:</string>
+
+    <!-- TestManagement List Fragment ActionBar -->
+    <string name="fragment_testmanagement_actionbar_select_all">Select All</string>
+    <string name="fragment_testmanagement_actionbar_delete">Delete</string>
+    <string name="fragment_testmanagement_actionbar_share">Share</string>
+    <string name="fragment_testmanagement_actionbar_postproc">Post-Processing</string>
+
+    <!-- Align Test Fragment -->
+    <string name="fragment_test_align_iv_face">Face</string>
+
+    <!-- Live View Test Fragment -->
+    <string name="fragment_test_liveview_description">This is the live view test. You can now open every other app. Attention: You are not allowed to change the orientation.</string>
+
+    <!-- Calibration Async Task -->
+    <string name="asynctask_calibration_successfulL_calibration">Successfully calibrated</string>
+    <string name="asynctask_calibration_unsuccessfulL_calibration">Unsuccessful calibration</string>
+    <string name="asynctask_calibration_dialog_title">Calibrating</string>
+    <string name="asynctask_calibration_dialog_message">Calibrating &#8230;</string>
+
+    <!-- Zipping Async Task -->
+    <string name="asynctask_zipping_dialog_title">Zipping files</string>
+    <string name="asynctask_zipping_dialog_message">Zipping file</string>
+
+    <!-- XML Values for Test Types -->
+    <string name="test_type_name_test_live">Live View Test</string>
+    <string name="test_type_name_test_rectangle_single">Rectangle Single Test</string>
+    <string name="test_type_name_test_rectangle_sequence">Rectangle Sequence Test</string>
+    <string name="test_type_name_test_word_single">Word Single Test</string>
+    <string name="test_type_name_test_word_sequence">Word Sequence Test</string>
+    <string name="test_type_name_test_video">Video Test</string>
+    <string name="test_type_name_test_line">Line Test</string>    
+    <string name="test_type_name_test_point">Point Test</string>    
+    <string name="test_type_name_test_screen">Second Screen Test</string>    
+    
+    <!-- General Preferences -->
+    <string name="preferences_general_device_category">Device Preferences</string>
+    <string name="preferences_general_pref_device_orientation_title">Device Orientation</string>
+    <string name="preferences_general_pref_device_orientation_summary">The orientation of the application while using it</string>
+    <string name="preferences_general_camera_category">Camera Preferences</string>
+    <string name="preferences_general_pref_camera_offset_x_title">Camera Offset X</string>
+    <string name="preferences_general_pref_camera_offset_x_summary">The offset of the camera for the X direction relatively to the screen in landscape mode</string>
+    <string name="preferences_general_pref_camera_offset_y_title">Camera Offset Y</string>
+    <string name="preferences_general_pref_camera_offset_y_summary">The offset of the camera for the Y direction relatively to the screen in landscape mode</string>
+    <string name="preferences_general_pref_camera_resolution_title">Camera Resolution</string>
+    <string name="preferences_general_pref_camera_resolution_summary">The resolution of the camera that should be used given in landscape mode</string>
+
+    <!-- Generic Test Preferences -->
+    <string name="preferences_generic_test_category">General Test Preferences</string>
+    <string name="preferences_generic_test_record_screen_title">Record Screen</string>
+    <string name="preferences_generic_test_record_screen_summary">Records the screen during the test. Requires root</string>
+    <string name="preferences_generic_test_show_video_second_screen_title">Second Screen</string>
+    <string name="preferences_generic_test_show_video_second_screen_summary">Show a video on the second screen</string>
+    <string name="preferences_generic_test_second_screen_file_path_title">Video</string>
+    <string name="preferences_generic_test_second_screen_file_path_summary">Choose the video you want to play on the second screen.</string>
+    <string name="preferences_generic_test_log_sensor_data_title">Log Sensor Data</string>
+    <string name="preferences_generic_test_log_sensor_data_summary">Logs accelerometer, gyroscope, rotation and light sensor during the test</string>
+    <string name="preferences_generic_test_immersive_mode_title">Immersive Mode</string>
+    <string name="preferences_generic_test_immersive_mode_summary">Shows this test in full screen. This will NOT work for the Live View Test.</string>
+    <string name="preferences_generic_test_toast_error_missing_second_screen">Error: No second screen found but your current settings require one.</string>
+    <string name="preferences_generic_test_toast_error_device_not_rooted">Error: Your device is not rooted but your current settings require a rooted device.</string>
+    <string name="preferences_generic_test_toast_error_no_root_access">Error: No root rights granted but your current settings require a rooted device.</string>
+    <string name="preferences_generic_test_toast_error_no_video_found">Error: No video found under </string>
+    <string name="preferences_generic_test_toast_error_chosen_video_not_found">Error: Chosen video was not found</string>
+
+    <!-- Rectangle Test General Preferences -->
+    <string name="preferences_rectangle_test_category">Rectangle Test Preferences</string>
+    <string name="preferences_rectangle_test_time_per_rectangle_title">Time per Rectangle</string>
+    <string name="preferences_rectangle_test_time_per_rectangle_summary">The amount of time (in seconds) for which a rectangle is colored</string>
+    <string name="preferences_rectangle_test_play_tone_title">Play Tone</string>
+    <string name="preferences_rectangle_test_play_tone_summary">Play a tone before displaying a rectangle.</string>
+    <string name="preferences_rectangle_test_pause_between_rectangles_title">Pause between Rectangles</string>
+    <string name="preferences_rectangle_test_pause_between_rectangles_summary">The amound of time (in seconds) between highlighting two rectangles</string>
+    <string name="preferences_rectangle_test_play_music_title">Play Music</string>
+    <string name="preferences_rectangle_test_play_music_summary">Play music while pausing. If pause is set to 0 seconds this setting will be ignored.</string>
+    <string name="preferences_rectangle_test_music_file_path_title">Music</string>
+    <string name="preferences_rectangle_test_music_file_path_summary">Choose the music you want to play</string>
+    <string name="preferences_rectangle_test_toast_error_no_music_found">Error: No music found under </string>
+    <string name="preferences_rectangle_test_toast_error_chosen_music_not_found">Error: Chosen music was not found</string>
+
+    <!-- Rectangle Test Single Preferences -->
+    <string name="preferences_rectangle_single_test_category">Single Test Preferences</string>
+    <string name="preferences_rectangle_single_test_number_of_rows_title">Number of Rows</string>
+    <string name="preferences_rectangle_single_test_number_of_rows_summary">The number of rows of the grid</string>
+    <string name="preferences_rectangle_single_test_number_of_columns_title">Number of Columns</string>
+    <string name="preferences_rectangle_single_test_number_of_columns_summary">The number of columns of the grid</string>
+
+    <!-- Rectangle Test Sequence Preferences -->
+    <string name="preferences_rectangle_sequence_test_category">Sequence Test Preferences</string>
+    <string name="preferences_rectangle_sequence_test_time_per_sequence_title">Time per Sequence</string>
+    <string name="preferences_rectangle_sequence_test_time_per_sequence_summary">The amount of time (in seconds) for which a sequence is running</string>
+
+    <!-- Word Test Preferences -->
+    <string name="preferences_word_test_category">Word Test Preferences</string>
+    <string name="preferences_word_test_time_per_word_title">Duration</string>
+    <string name="preferences_word_test_time_per_word_summary">The time for which each word is highlighted</string>
+    <string name="preferences_word_test_text_file_path_title">Text</string>
+    <string name="preferences_word_test_text_file_path_summary">Choose the text you want to show</string>
+    <string name="preferences_word_test_toast_error_no_text_found">Error: No text found under </string>
+    <string name="preferences_word_test_toast_error_chosen_text_not_found">Error: Chosen text was not found</string>
+
+    <!-- Word Single Test Preferences -->
+    <string name="preferences_word_single_test_category">Single Test Preferences</string>
+    <string name="preferences_word_single_test_font_size_title">Font size</string>
+    <string name="preferences_word_single_test_font_size_summary">The size of the font</string>
+
+    <!-- Video Test Preferences -->
+    <string name="preferences_video_test_category">Video Test Preferences</string>
+    <string name="preferences_video_test_file_path_title">Video</string>
+    <string name="preferences_video_test_file_path_summary">Choose the video you want to play</string>
+    <string name="preferences_video_test_loop_video_title">Loop</string>
+    <string name="preferences_video_test_loop_video_summary">Plays the video in a loop</string>
+    <string name="preferences_video_test_toast_error_no_videos_found">Error: No videos found under </string>
+    <string name="preferences_video_test_toast_error_chosen_video_not_found">Error: Chosen video was not found</string>
+
+    <!-- Line Test Preferences -->
+    <string name="preferences_line_test_category">Line Test</string>
+    <string name="preferences_line_test_velocity_title">Velocity</string>
+    <string name="preferences_line_test_velocity_summary">The velocity which is used for moving the ball along a line</string>
+    <string name="preferences_line_test_number_of_lines">Number of Lines:</string>
+    <string name="preferences_line_test_number_of_lines_summary">The number of lines that are used</string>
+    <string name="preferences_line_test_number_of_repetitions_title">Number of Repetitions</string>
+    <string name="preferences_line_test_number_of_repetitions_summary">The number of repetitions</string>    
+    
+    <!-- Point Test Preferences -->
+    <string name="preferences_point_test_category">Point Test Preferences</string>
+    <string name="preferences_point_test_time_per_point_title">Time per point</string>
+    <string name="preferences_point_test_time_per_point_summary">The amount of time (in seconds) for which a point is colored</string>   
+    <string name="preferences_point_test_number_of_rows_title">Number of Rows</string>
+    <string name="preferences_point_test_number_of_rows_summary">The number of rows of the grid</string>
+    <string name="preferences_point_test_number_of_columns_title">Number of Columns</string>
+    <string name="preferences_point_test_number_of_columns_summary">The number of columns of the grid</string>
+    <string name="preferences_point_test_number_of_repetitions_title">Number of Repetitions</string>
+    <string name="preferences_point_test_number_of_repetitions_summary">The number of repetitions</string>
+
+    <!-- Second Screen Test Preferences -->
+    <string name="preferences_screen_test_category">Second Screen Test Preferences</string>
+    <string name="preferences_screen_test_time_on_tablet_title">Gazing Time on Tablet</string>
+    <string name="preferences_screen_test_time_on_tablet_summary">The amount of time (in seconds) for which a person gazes on the tablet</string>   
+    <string name="preferences_screen_test_time_beside_tablet_title">Gazing Time beside Tablet</string>
+    <string name="preferences_screen_test_time_beside_tablet_summary">The amount of time (in seconds) for which a person gazes beside the tablet</string>   
+    <string name="preferences_screen_test_number_of_repetitions_title">Number of Repetitions</string>
+    <string name="preferences_screen_test_number_of_repetitions_summary">The number of repetitions</string>
+    
+    <!-- UNITS -->
+    <string name="unit_px">px</string>
+    <string name="unit_mm">mm</string>
+    <string name="unit_min">min</string>
+    <string name="unit_sec">sec</string>
+    <string name="unit_sp">sp</string>
+
+</resources>

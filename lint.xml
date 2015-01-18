@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="IconColors">
+        <ignore path="res/drawable-hdpi/ic_launcher.png" />
+        <ignore path="res/drawable-mdpi/ic_launcher.png" />
+        <ignore path="res/drawable-xhdpi/ic_launcher.png" />
+        <ignore path="res/drawable-xxhdpi/ic_launcher.png" />
+    </issue>
+    <issue id="InflateParams">
+        <ignore path="src/de/vion/eyetracking/windowmanager/LiveGazeWindowManager.java" />
+    </issue>
+    <issue id="LabelFor">
+        <ignore path="res/layout/activity_home.xml" />
+    </issue>
+    <issue id="MergeRootFrame">
+        <ignore path="res/layout/calibration_second_screen.xml" />
+    </issue>
+    <issue id="RtlHardcoded">
+        <ignore path="src/de/vion/eyetracking/windowmanager/LiveGazeWindowManager.java" />
+    </issue>
+    <issue id="SimpleDateFormat">
+        <ignore path="src/de/vion/eyetracking/FileManager.java" />
+        <ignore path="src/de/vion/eyetracking/misc/FileManager.java" />
+        <ignore path="src/de/vion/eyetracking/misc/FileManager.java" />
+    </issue>
+</lint>

@@ -1,0 +1,40 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/preferences_rectangle_test_category" >
+        <ListPreference
+            android:defaultValue="@string/test_rectangle_pref_time_per_rectangle_default"
+            android:entries="@array/test_rectangle_pref_time_per_rectangle_entries"
+            android:entryValues="@array/test_rectangle_pref_time_per_rectangle_values"
+            android:key="pref_rectangle_test_general_time_per_rectangle"
+            android:summary="@string/preferences_rectangle_test_time_per_rectangle_summary"
+            android:title="@string/preferences_rectangle_test_time_per_rectangle_title" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_rectangle_test_general_play_tone"
+            android:summary="@string/preferences_rectangle_test_play_tone_summary"
+            android:title="@string/preferences_rectangle_test_play_tone_title" />
+
+        <ListPreference
+            android:defaultValue="@string/test_rectangle_pref_pause_between_rectangles_default"
+            android:entries="@array/test_rectangle_pref_pause_between_rectangles_entries"
+            android:entryValues="@array/test_rectangle_pref_pause_between_rectangles_values"
+            android:key="pref_rectangle_test_general_pause_between_rectangles"
+            android:summary="@string/preferences_rectangle_test_pause_between_rectangles_summary"
+            android:title="@string/preferences_rectangle_test_pause_between_rectangles_title" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_rectangle_test_general_play_music"
+            android:summary="@string/preferences_rectangle_test_play_music_summary"
+            android:title="@string/preferences_rectangle_test_play_music_title" />
+
+        <de.vion.eyetracking.testframework.tests.rectangle.settings.RectangleTestListPreference
+            android:defaultValue=""
+            android:dependency="pref_rectangle_test_general_play_music"
+            android:key="pref_rectangle_test_general_music_file_path"
+            android:summary="@string/preferences_rectangle_test_music_file_path_summary"
+            android:title="@string/preferences_rectangle_test_music_file_path_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

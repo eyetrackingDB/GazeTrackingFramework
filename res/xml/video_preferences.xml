@@ -1,0 +1,16 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/preferences_video_test_category" >
+        <de.vion.eyetracking.testframework.tests.video.VideoTestListPreference
+            android:defaultValue=""
+            android:key="pref_video_test_general_file_path"
+            android:summary="@string/preferences_video_test_file_path_summary"
+            android:title="@string/preferences_video_test_file_path_title" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_video_test_general_loop_video"
+            android:summary="@string/preferences_video_test_loop_video_summary"
+            android:title="@string/preferences_video_test_loop_video_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

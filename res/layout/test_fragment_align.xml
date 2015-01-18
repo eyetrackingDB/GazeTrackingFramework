@@ -1,0 +1,20 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:opencv="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <SurfaceView
+        android:id="@+id/test_fragment_align_sv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <ImageView
+        android:id="@+id/test_fragment_align_iv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@null"
+        android:contentDescription="@string/fragment_test_align_iv_face"
+        android:src="@drawable/face2" />
+
+</FrameLayout>

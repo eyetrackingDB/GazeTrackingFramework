@@ -1,0 +1,9 @@
+<de.vion.eyetracking.gazedetection.live.LiveProcessingView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:opencv="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_gaze_camera_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="gone"
+    opencv:camera_id="1"
+    opencv:show_fps="false" />

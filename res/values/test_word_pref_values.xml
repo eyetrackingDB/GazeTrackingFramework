@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string-array name="test_word_pref_time_per_word_entries">
+        <item name="SEC_1">1 second</item>
+        <item name="SEC_2">2 seconds</item>
+        <item name="SEC_3">3 seconds</item>
+        <item name="SEC_4">4 seconds</item>
+        <item name="SEC_5">5 seconds</item>
+    </string-array>
+    <string-array name="test_word_pref_time_per_word_values">
+        <item name="SEC_1">1000</item>
+        <item name="SEC_2">2000</item>
+        <item name="SEC_3">3000</item>
+        <item name="SEC_4">4000</item>
+        <item name="SEC_5">5000</item>
+    </string-array>
+
+    <string name="test_word_pref_time_per_word_default">1000</string>
+</resources>

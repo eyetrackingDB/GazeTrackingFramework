@@ -1,0 +1,18 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/preferences_word_test_category" >
+        <ListPreference
+            android:defaultValue="@string/test_word_pref_time_per_word_default"
+            android:entries="@array/test_word_pref_time_per_word_entries"
+            android:entryValues="@array/test_word_pref_time_per_word_values"
+            android:key="pref_word_test_general_time_per_word"
+            android:summary="@string/preferences_word_test_time_per_word_summary"
+            android:title="@string/preferences_word_test_time_per_word_title" />
+        <de.vion.eyetracking.testframework.tests.word.settings.WordTestListPreference
+            android:defaultValue=""
+            android:key="pref_word_test_general_text"
+            android:summary="@string/preferences_word_test_text_file_path_summary"
+            android:title="@string/preferences_word_test_text_file_path_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

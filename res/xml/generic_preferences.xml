@@ -1,0 +1,32 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/preferences_generic_test_category" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_general_record_screen"
+            android:summary="@string/preferences_generic_test_record_screen_summary"
+            android:title="@string/preferences_generic_test_record_screen_title" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_general_secondscreen"
+            android:summary="@string/preferences_generic_test_show_video_second_screen_summary"
+            android:title="@string/preferences_generic_test_show_video_second_screen_title" />
+        <de.vion.eyetracking.testframework.generic.GenericTestListPreference
+            android:defaultValue=""
+            android:key="pref_general_test_video_file_path"
+            android:dependency="pref_general_record_screen"
+            android:summary="@string/preferences_generic_test_second_screen_file_path_summary"
+            android:title="@string/preferences_generic_test_second_screen_file_path_title" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_general_log_sensors"
+            android:summary="@string/preferences_generic_test_log_sensor_data_summary"
+            android:title="@string/preferences_generic_test_log_sensor_data_title" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_general_immersive_mode"
+            android:summary="@string/preferences_generic_test_immersive_mode_summary"
+            android:title="@string/preferences_generic_test_immersive_mode_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

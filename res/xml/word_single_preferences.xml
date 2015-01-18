@@ -1,0 +1,13 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/preferences_word_single_test_category" >
+        <ListPreference
+            android:defaultValue="@string/test_word_single_pref_font_size_default"
+            android:entries="@array/test_word_single_pref_font_size_entries"
+            android:entryValues="@array/test_word_single_pref_font_size_values"
+            android:key="pref_word_test_single_font_size"
+            android:summary="@string/preferences_word_single_test_font_size_summary"
+            android:title="@string/preferences_word_single_test_font_size_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

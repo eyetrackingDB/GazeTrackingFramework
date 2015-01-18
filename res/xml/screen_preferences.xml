@@ -1,0 +1,27 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/preferences_screen_test_category" >
+        <ListPreference
+            android:defaultValue="@string/test_screen_pref_time_gazing_on_tablet_default"
+            android:entries="@array/test_screen_pref_time_gazing_on_tablet_entries"
+            android:entryValues="@array/test_screen_pref_time_gazing_on_tablet_values"
+            android:key="pref_screen_test_time_gazing_on_tablet"
+            android:summary="@string/preferences_screen_test_time_on_tablet_summary"
+            android:title="@string/preferences_screen_test_time_on_tablet_title" />
+        <ListPreference
+            android:defaultValue="@string/test_screen_pref_time_gazing_beside_tablet_default"
+            android:entries="@array/test_screen_pref_time_gazing_beside_tablet_entries"
+            android:entryValues="@array/test_screen_pref_time_gazing_beside_tablet_values"
+            android:key="pref_screen_test_time_gazing_beside_tablet"
+            android:summary="@string/preferences_screen_test_time_beside_tablet_summary"
+            android:title="@string/preferences_screen_test_time_beside_tablet_title" />
+        <ListPreference
+            android:defaultValue="@string/test_screen_pref_number_of_repetitions_default"
+            android:entries="@array/test_screen_pref_number_of_repetitions"
+            android:entryValues="@array/test_screen_pref_number_of_repetitions"
+            android:key="pref_screen_test_number_of_repetitions"
+            android:summary="@string/preferences_screen_test_number_of_repetitions_summary"
+            android:title="@string/preferences_screen_test_number_of_repetitions_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

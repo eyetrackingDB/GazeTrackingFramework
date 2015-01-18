@@ -1,0 +1,34 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/preferences_point_test_category" >
+        <ListPreference
+            android:defaultValue="@string/test_point_pref_time_per_point_default"
+            android:entries="@array/test_point_pref_time_per_point_entries"
+            android:entryValues="@array/test_point_pref_time_per_point_values"
+            android:key="pref_point_test_general_time_per_point"
+            android:summary="@string/preferences_point_test_time_per_point_summary"
+            android:title="@string/preferences_point_test_time_per_point_title" />
+        <ListPreference
+            android:defaultValue="@string/test_point_pref_number_of_rows_default"
+            android:entries="@array/test_point_pref_number_of_rows"
+            android:entryValues="@array/test_point_pref_number_of_rows"
+            android:key="pref_point_test_number_of_rows"
+            android:summary="@string/preferences_point_test_number_of_rows_summary"
+            android:title="@string/preferences_point_test_number_of_rows_title" />
+        <ListPreference
+            android:defaultValue="@string/test_point_pref_number_of_columns_default"
+            android:entries="@array/test_point_pref_number_of_columns"
+            android:entryValues="@array/test_point_pref_number_of_columns"
+            android:key="pref_point_test_number_of_columns"
+            android:summary="@string/preferences_point_test_number_of_columns_summary"
+            android:title="@string/preferences_point_test_number_of_columns_title" />
+        <ListPreference
+            android:defaultValue="@string/test_point_pref_number_of_repetitions_default"
+            android:entries="@array/test_point_pref_number_of_repetitions"
+            android:entryValues="@array/test_point_pref_number_of_repetitions"
+            android:key="pref_point_test_number_of_repetitions"
+            android:summary="@string/preferences_point_test_number_of_repetitions_summary"
+            android:title="@string/preferences_point_test_number_of_repetitions_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

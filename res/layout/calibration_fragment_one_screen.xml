@@ -1,0 +1,24 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:opencv="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <de.vion.eyetracking.cameracalib.GazeView
+        android:id="@+id/calibration_one_screen_fragment_gaze_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        opencv:camera_id="1"
+        opencv:show_fps="true" />
+
+    <ImageButton
+        android:id="@+id/calibration_one_screen_fragment_btn_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="30dp"
+        android:background="@null"
+        android:contentDescription="@string/fragment_calibration_btn_finish"
+        android:src="@drawable/ic_action_stop" />
+
+</FrameLayout>

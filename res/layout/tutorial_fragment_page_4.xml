@@ -1,0 +1,15 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/included_layout"
+    android:layout_alignParentTop="true"
+    android:padding="16dp" >
+
+    <TextView
+        style="?android:textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="@string/fragment_tutorial_page_4_tv1" />
+
+</ScrollView>
