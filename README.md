@@ -45,6 +45,10 @@ If you are planning to integrate NormMaker into a commercial product, please con
   * RootTools [click](https://github.com/Stericson/RootTools)
 
 #### HOW TO USE THIS SOFTWARE
+* Download the tools that are listed under requirements and install them
 * Clone the git repository
-* Compile it using an Android API of v19 or later
-* Run it
+* Important the project into eclipse
+* Go to Properties/Android and set the path to the OpenCV 4 Android library
+* Go to the jni/Android.mk file and set the paths for the variables OPEN_CV_FULL_PATH and TBB_FULL_PATH
+* Go to Properties/ C/C++ General/ Paths and Symbols and modify the include paths such that they map your folder structure 
+* Use the framework 
