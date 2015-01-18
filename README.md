@@ -8,6 +8,9 @@ Copyright (C) 2014-2015, Oliver Hohlfeld <oliver.hohlfeld@comsys.rwth-aachen.de>
 
 Copyright (C) 2014-2015, Chair of Computer Science 4, RWTH Aachen University, <klaus@comsys.rwth-aachen.de>
 
+#### ABOUT
+The GazeTrackingFramework has the goal to conduct different kind of gaze tracking experiments. For that, the framework comes with a comprehensive suite on tests. As gaze tracking algorithm, we use a modified version of [EyeTab](https://github.com/errollw/EyeTab/). For example, we modified the pupil detection to use [EyeLike](https://github.com/trishume/eyeLike) library. However, we included this gaze tracking algorithm as proof-of-concept. As EyeTab currently has a bad performance, we chose a post processing approach to evaluate the test results. For evaluating the results of the conducted experiments, you can replace EyeTab with any algorithm you like. For more information, we relate to the master thesis [(download)](https://docs.google.com/uc?export=download&id=0B729EHEvlyiUNXdBNVFXUzB2MWM) during which this frame work was developed.  
+
 #### FREE SOFTWARE
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 2 of the License, or (at your option) any later version.
